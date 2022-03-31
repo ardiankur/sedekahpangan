@@ -1,0 +1,486 @@
+/* Header */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+body .header {
+    background: url("assets/BG_01.abef41cf.jpg") repeat 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+body .header .content {
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+body .header .content .headline {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 59px;
+    color: #127e67;
+}
+
+body .header .content .subheadline {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    color: #8caf41;
+}
+
+body .header .content .button-header {
+    margin-top: 30px;
+}
+
+body .header .content .button-header .btn-started {
+    background: #8caf41;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+body .header .content .button-header .btn-watch {
+    background: transparent;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    -webkit-text-decoration-line: underline;
+    text-decoration-line: underline;
+    color: #939EA3;
+}
+
+@media screen and (min-width: 768px) {
+    body .header nav {
+        padding-top: 30px;
+    }
+}
+
+body .header nav .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-right: 30px !important;
+}
+
+@media screen and (min-width: 768px) {
+    body .header nav .navigation {
+        padding-left: 30px;
+        border-left: 1px solid #304454;
+    }
+}
+
+body .header nav .navigation li {
+    margin-right: 24px;
+}
+
+body .header nav .navigation a {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF !important;
+}
+
+body .header nav .authentication li {
+    margin-right: 22px;
+}
+
+body .header nav .authentication a {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    body .header nav .authentication .login {
+        width: 100%;
+    }
+}
+
+body .header nav .authentication .login a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    body .header nav .authentication .login a {
+        background: #518CFF;
+        border-radius: 8px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        color: #FFFFFF !important;
+        padding: 14px 14px 14px 14px !important;
+    }
+}
+
+body .header nav .authentication .signup {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 113px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 14px 14px 14px 14px !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #08090D;
+}
+
+
+/* End Header */
+
+
+/* Content 1 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+
+body .right-circle img {
+    z-index: 0;
+    margin-top: -250px;
+    position: absolute;
+}
+
+body .porto {
+    background-image: url("assets/BG_07.44bfeb3a.jpg");
+    padding: 50px 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    body .porto {
+        padding-top: 140px;
+        padding-bottom: 100px;
+    }
+}
+
+body .porto .headline {
+    font-size: 53px;
+    font-weight: bold;
+    color: #127e67;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+body .porto .headline1 {
+    font-size: 63px;
+    font-weight: bold;
+    color: #be4b4b;
+    z-index: 1;
+    text-align: center;
+}
+
+body .porto .link {
+    font-size: 24px;
+    font-weight: 600;
+    color: #EEEEEE;
+    z-index: 1;
+}
+
+body .porto .sub-headline {
+    padding-top: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8caf41;
+    z-index: 1;
+    text-align: center;
+}
+
+body .porto .button-header {
+    padding-top: 30px;
+}
+
+body .porto .button-header .btn-started {
+    background: #8caf41;
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+    body .porto .sub-headline {
+        font-size: 24px;
+    }
+}
+
+body .porto .porto-img {
+    margin-top: 45px;
+}
+
+body .porto .porto-img div {
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    body .porto .porto-img {
+        margin-top: 96px;
+    }
+}
+
+body .porto .porto-img-full {
+    z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    body .porto .porto-img-full {
+        width: 100px !important;
+    }
+}
+
+body .porto .porto-img-half {
+    z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    body .porto .porto-img-half {
+        height: 70px !important;
+    }
+}
+
+body .cl-light {
+    color: #EEEEEE;
+}
+
+body .cl-light-grey-2 {
+    color: #90BCB7;
+}
+
+body .font-lora {
+    font-family: 'Lora', sans-serif !important;
+}
+
+
+/* End Content 1 */
+
+
+/* Content 2 */
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+    font-family: 'Poppins', 'Inter', sans-serif !important;
+}
+
+body .left-circle img {
+    z-index: 0;
+    margin-top: -250px;
+    position: absolute;
+}
+
+body .client {
+    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
+    padding: 50px 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
+
+body .client h1 {
+    font-weight: bold;
+    font-size: 53px;
+    color: #127e67;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client h1 {
+        font-size: 63px !important;
+    }
+}
+
+body .client .merriweather {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    width: 100% !important;
+    z-index: 1;
+}
+
+body .client .review {
+    color: #8caf41;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+}
+
+body .client h5 {
+    font-weight: 600;
+    font-size: 28px;
+    color: #EEEEEE;
+    z-index: 1;
+}
+
+body .client .company {
+    font-weight: 400;
+    font-size: 20px;
+    color: #666666;
+    z-index: 1;
+}
+
+body .client .client-img img {
+    width: 108px;
+    height: 60px;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    body .client .review-section {
+        padding-top: 116px;
+    }
+}
+
+body .cl-light {
+    color: #EEEEEE;
+}
+
+body .cl-light-grey-2 {
+    color: #90BCB7;
+}
+
+body .font-lora {
+    font-family: 'Lora', sans-serif !important;
+}
+
+
+/* End Content 2 */
+
+
+/* Content 3 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body .content1 {
+    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
+}
+
+body .content1 .content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+body .content1 .content .headline {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 67px;
+    color: #127e67;
+}
+
+body .content1 .content .benefits {
+    margin-top: 50px;
+}
+
+body .content1 .content .benefits .rectangle {
+    max-width: 288px;
+    max-height: 334px;
+    border: 1px solid #9BA8BE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 26px;
+}
+
+body .content1 .content .benefits .rectangle img {
+    margin-top: 50px;
+}
+
+body .content1 .content .benefits .rectangle .headline-benefit {
+    margin-top: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    text-align: center;
+    color: #111F37;
+}
+
+body .content1 .content .benefits .rectangle .subheadline-benefit {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+    text-align: center;
+    color: #627492;
+    margin-bottom: 40px;
+}
+
+body .content1 .content .img-brand {
+    margin-top: 50px;
+}
+
+body .content1 .content .img-brand img {
+    margin-right: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    body .content1 .content .img-brand img {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
+
+
+/* End Content 3 */
+
+
+/* Footer */
+
+body .footer {
+    background-image: url("assets/BG_08.ad47a628.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 500px;
+}
+
+
+/* End Footer */
