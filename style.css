@@ -91,88 +91,6 @@ body .header .content .button-header .btn-watch {
     color: #939EA3;
 }
 
-@media screen and (min-width: 768px) {
-    body .header nav {
-        padding-top: 30px;
-    }
-}
-
-body .header nav .navbar-brand {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 26px;
-    color: #FFFFFF;
-    margin-right: 30px !important;
-}
-
-@media screen and (min-width: 768px) {
-    body .header nav .navigation {
-        padding-left: 30px;
-        border-left: 1px solid #304454;
-    }
-}
-
-body .header nav .navigation li {
-    margin-right: 24px;
-}
-
-body .header nav .navigation a {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF !important;
-}
-
-body .header nav .authentication li {
-    margin-right: 22px;
-}
-
-body .header nav .authentication a {
-    font-size: 16px;
-}
-
-@media screen and (max-width: 768px) {
-    body .header nav .authentication .login {
-        width: 100%;
-    }
-}
-
-body .header nav .authentication .login a {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-
-@media screen and (max-width: 768px) {
-    body .header nav .authentication .login a {
-        background: #518CFF;
-        border-radius: 8px;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        color: #FFFFFF !important;
-        padding: 14px 14px 14px 14px !important;
-    }
-}
-
-body .header nav .authentication .signup {
-    background: #FFFFFF;
-    border-radius: 8px;
-    width: 113px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 14px 14px 14px 14px !important;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    color: #08090D;
-}
-
 
 /* End Header */
 
@@ -197,6 +115,12 @@ body .porto {
 body .porto .pay {
     padding-top: 10px;
 }
+
+body .porto .porto-img .img-fluid {
+    /*img-homepage*/
+    border-radius: 20px;
+}
+
 @media only screen and (min-width: 768px) {
     body .porto {
         padding-top: 140px;
@@ -216,7 +140,7 @@ body .porto .headline {
 body .porto .headline1 {
     font-size: 63px;
     font-weight: bold;
-    color: #be4b4b;
+    color: #ff0000;
     z-index: 1;
     text-align: center;
 }
@@ -331,15 +255,6 @@ body .font-lora {
 
 /* Content 2 */
 
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:wght@900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-* {
-    font-family: 'Poppins', 'Inter', sans-serif !important;
-}
-
 body .left-circle img {
     z-index: 0;
     margin-top: -250px;
@@ -364,11 +279,12 @@ body .client h1 {
     color: #127e67;
     z-index: 1;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
     body .client h1 {
-        font-size: 63px !important;
+        font-size: 57px !important;
     }
 }
 
@@ -392,20 +308,6 @@ body .client .review {
     font-weight: 600;
     font-size: 20px;
     text-align: justify;
-    z-index: 1;
-}
-
-body .client h5 {
-    font-weight: 600;
-    font-size: 28px;
-    color: #EEEEEE;
-    z-index: 1;
-}
-
-body .client .company {
-    font-weight: 400;
-    font-size: 20px;
-    color: #666666;
     z-index: 1;
 }
 
@@ -433,16 +335,17 @@ body .font-lora {
     font-family: 'Lora', sans-serif !important;
 }
 
+@media only screen and (max-width: 768px) {
+    body .client h1 {
+        font-size: 46px !important;
+    }
+}
+
 
 /* End Content 2 */
 
 
 /* Content 3 */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-* {
-    font-family: 'Poppins', sans-serif !important;
-}
 
 body .content1 {
     background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
@@ -509,6 +412,16 @@ body .content1 .content .img-brand {
 
 body .content1 .content .img-brand img {
     margin-right: 60px;
+}
+
+body .content1 .content .review {
+    color: #8caf41;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+    padding-top: 30px;
 }
 
 @media only screen and (max-width: 768px) {
