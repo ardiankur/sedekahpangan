@@ -1,42 +1,35 @@
 /* Header */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
 * {
     font-family: 'Inter', sans-serif !important;
 }
 
 body .header {
-    background: url("assets/BG_01.abef41cf.jpg") repeat 0 0;
-    margin-top: -120px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+    background: url("assets/BG_01.abef41cf.jpg");
+    margin-top: -100px;
+    /* background-size: cover; */
+    width: auto;
     height: auto;
 }
 
 body .header .content {
-    padding-top: 205px;
-    padding-bottom: 105px;
+    padding-top: 150px;
+    padding-bottom: 125px;
 }
 
 body .header .content .headline {
-    font-style: normal;
     font-weight: bold;
-    font-size: 53px;
+    font-size: 52px;
     line-height: 59px;
     color: #127e67;
 }
 
-body .header .content .img-fluid{ /*img-homepage*/
-    box-shadow: 0px 0px 50px rgba(165, 165, 165, 0.8);
-    border-radius: 20px;
-}
-
 body .header .content .subheadline {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 23px;
-    line-height: 28px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
     color: #8caf41;
 }
 
@@ -45,114 +38,63 @@ body .header .content .button-header {
 }
 
 body .header .content .button-header .btn-started {
-    background: #8caf41;
-    border-radius: 30px;
-    width: 300px;
-    height: 60px;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
+    color: aliceblue;
     line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
-    -webkit-transition: all 0.5s; /*-webkit sampai transition => set animasi*/
+    width: 290px;
+    height: 55px;
+    border-radius: 25px;
+    background: #8caf41;
+    -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.8);
 }
 
-body .header .content .button-header .btn-started:hover { /*hover button header*/
+body .header .content .button-header .btn-started:hover {
+    /*hover button header*/
     background: #127e67;
-    border-radius: 30px;
-    width: 300px;
-    height: 60px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 21px;
-    text-align: center;
-    color: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(165, 165, 165, 0.8);
 }
 
-body .header .content .button-header .btn-watch {
-    background: transparent;
-    border-radius: 8px;
-    width: 150px;
-    height: 50px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    text-align: center;
-    -webkit-text-decoration-line: underline;
-    text-decoration-line: underline;
-    color: #939EA3;
-}
-
-
-/* End Header */
-
-
-/* Content 1 */
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-* {
-    font-family: 'Poppins', 'Inter', sans-serif !important;
-}
-
-body .right-circle img {
-    z-index: 0;
-    margin-top: -250px;
-    position: absolute;
-}
-
-body .porto {
-    background-image: url("assets/BG_07.44bfeb3a.jpg");
-    padding: 50px 30px;
-}
-body .porto .pay {
-    padding-top: 10px;
-}
-
-body .porto .porto-img .img-fluid {
-    /*img-homepage*/
+body .header .content .img-fluid {
+    /*img header*/
+    box-shadow: 0px 0px 50px rgba(165, 165, 165, 0.8);
     border-radius: 20px;
 }
 
+/* End Header */
+
+/* Content 1 */
+body .solution {
+    background-image: url("assets/BG_07.44bfeb3a.jpg");
+    padding: 50px 30px;
+}
+
+body .solution .img .img-fluid {
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px rgba(165, 165, 165, 0.8);
+}
+
 @media only screen and (min-width: 768px) {
-    body .porto {
+    body .solution {
         padding-top: 140px;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
 }
 
-body .porto .headline {
-    font-size: 53px;
+body .solution .headline {
     font-weight: bold;
+    font-size: 47px;
+    line-height: 59px;
     color: #127e67;
-    z-index: 1;
     text-align: center;
-    padding-bottom: 40px;
-}
-
-body .porto .headline1 {
-    font-size: 63px;
-    font-weight: bold;
-    color: #ff0000;
-    z-index: 1;
-    text-align: center;
-}
-
-body .porto .link {
-    font-size: 24px;
-    font-weight: 600;
-    color: #EEEEEE;
     z-index: 1;
 }
 
-body .porto .sub-headline {
+body .solution .sub-headline {
     padding-top: 28px;
     font-size: 20px;
     font-weight: 600;
@@ -161,13 +103,136 @@ body .porto .sub-headline {
     text-align: center;
 }
 
-body .porto .button-header {
+/* End Content 1 */
+
+/* Content 2 */
+body .content2 {
+    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
+    padding: 50px 30px;
+}
+
+body .content2 h1 {
+    font-weight: bold;
+    font-size: 47px;
+    color: #127e67;
+    z-index: 1;
+    padding-bottom: 10px;
+}
+
+body .content2 .img-fluid {
+    box-shadow: 0px 0px 50px rgba(165, 165, 165, 0.8);
+    border-radius: 20px;
+}
+
+body .content2 .review {
+    color: #8caf41;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    body .content2 .review-section {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body .content2 h1 {
+        font-size: 46px !important;
+    }
+}
+
+/* End Content 2 */
+
+/* Content 3 */
+body .content3 {
+    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
+}
+
+body .content3 .content {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+body .content3 .content .headline {
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 59px;
+    color: #127e67;
+}
+
+body .content3 .content .benefits {
+    margin-top: 50px;
+}
+
+body .content3 .content .benefits .rectangle {
+    max-width: 230px;
+    max-height: 334px;
+    border: 1px solid #9BA8BE;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+body .content3 .content .benefits .rectangle img {
+    margin-top: 30px;
+}
+
+body .content3 .content .benefits .rectangle .headline-benefit {
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #111F37;
+}
+
+body .content3 .content .review {
+    color: #8caf41;
+    line-height: 150%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: justify;
+    z-index: 1;
     padding-top: 30px;
 }
 
-body .porto .button-header .btn-started {
+/* End Content 3 */
+
+/* Content 4 */
+
+body .content4 {
+    background-image: url("assets/BG_07.44bfeb3a.jpg");
+}
+
+body .content4 .pay {
+    padding-top: 10px;
+}
+
+body .content4 .headline {
+    font-size: 40px;
+    font-weight: bold;
+    color: #127e67;
+    z-index: 1;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body .content4 .cta {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff0000;
+    z-index: 1;
+    text-align: center;
+}
+
+body .content4 .button-header .btn-started {
     background: #8caf41;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 300px;
     height: 60px;
     font-style: normal;
@@ -176,16 +241,23 @@ body .porto .button-header .btn-started {
     line-height: 21px;
     text-align: center;
     color: #FFFFFF;
-    -webkit-transition: all 0.5s; /*-webkit sampai transition => set animasi*/
+    -webkit-transition: all 0.5s;
+    /*-webkit sampai transition => set animasi*/
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     box-shadow: 0px 0px 10px rgba(165, 165, 165, 0.8);
 }
 
-body .porto .button-header .btn-started:hover { /*hover button Konfirmasi Wakaf*/
+body .content4 .button-header {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+body .content4 .button-header .btn-started:hover {
+    /*hover button Konfirmasi Wakaf*/
     background: #127e67;
-    border-radius: 30px;
+    border-radius: 10px;
     width: 300px;
     height: 60px;
     font-style: normal;
@@ -197,247 +269,10 @@ body .porto .button-header .btn-started:hover { /*hover button Konfirmasi Wakaf*
     box-shadow: 0px 0px 20px rgba(165, 165, 165, 0.8);
 }
 
-@media only screen and (min-width: 768px) {
-    body .porto .sub-headline {
-        font-size: 24px;
-    }
-}
-
-body .porto .porto-img {
-    margin-top: 45px;
-}
-
-body .porto .porto-img div {
-    z-index: 1;
-}
-
-@media only screen and (min-width: 768px) {
-    body .porto .porto-img {
-        margin-top: 96px;
-    }
-}
-
-body .porto .porto-img-full {
-    z-index: 1;
-}
-
-@media only screen and (max-width: 768px) {
-    body .porto .porto-img-full {
-        width: 100px !important;
-    }
-}
-
-body .porto .porto-img-half {
-    z-index: 1;
-}
-
-@media only screen and (max-width: 768px) {
-    body .porto .porto-img-half {
-        height: 70px !important;
-    }
-}
-
-body .cl-light {
-    color: #EEEEEE;
-}
-
-body .cl-light-grey-2 {
-    color: #90BCB7;
-}
-
-body .font-lora {
-    font-family: 'Lora', sans-serif !important;
-}
-
-
-/* End Content 1 */
-
-
-/* Content 2 */
-
-body .left-circle img {
-    z-index: 0;
-    margin-top: -250px;
-    position: absolute;
-}
-
-body .client {
-    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
-    padding: 50px 30px;
-}
-
-@media only screen and (min-width: 768px) {
-    body .client {
-        padding-top: 50px;
-        padding-bottom: 100px;
-    }
-}
-
-body .client h1 {
-    font-weight: bold;
-    font-size: 53px;
-    color: #127e67;
-    z-index: 1;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-    body .client h1 {
-        font-size: 57px !important;
-    }
-}
-
-body .client .merriweather {
-    font-family: 'Times New Roman', Times, serif !important;
-    font-weight: 700;
-    font-size: 20px;
-    color: white;
-    width: 100% !important;
-    z-index: 1;
-}
-
-body .client .img-fluid{ /*img-homepage*/
-    box-shadow: 0px 0px 50px rgba(165, 165, 165, 0.8);
-    border-radius: 20px;
-}
-
-body .client .review {
-    color: #8caf41;
-    line-height: 150%;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: justify;
-    z-index: 1;
-}
-
-body .client .client-img img {
-    width: 108px;
-    height: 60px;
-    z-index: 1;
-}
-
-@media only screen and (min-width: 768px) {
-    body .client .review-section {
-        padding-top: 116px;
-    }
-}
-
-body .cl-light {
-    color: #EEEEEE;
-}
-
-body .cl-light-grey-2 {
-    color: #90BCB7;
-}
-
-body .font-lora {
-    font-family: 'Lora', sans-serif !important;
-}
-
-@media only screen and (max-width: 768px) {
-    body .client h1 {
-        font-size: 46px !important;
-    }
-}
-
-
-/* End Content 2 */
-
-
-/* Content 3 */
-
-body .content1 {
-    background-image: url("assets/BG_02.ba49fdcf\ \(1\).jpg");
-}
-
-body .content1 .content {
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-body .content1 .content .headline {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 53px;
-    line-height: 67px;
-    color: #127e67;
-}
-
-body .content1 .content .benefits {
-    margin-top: 50px;
-}
-
-body .content1 .content .benefits .rectangle {
-    max-width: 288px;
-    max-height: 334px;
-    border: 1px solid #9BA8BE;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 26px;
-}
-
-body .content1 .content .benefits .rectangle img {
-    margin-top: 50px;
-}
-
-body .content1 .content .benefits .rectangle .headline-benefit {
-    margin-top: 40px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    /* identical to box height */
-    text-align: center;
-    color: #111F37;
-}
-
-body .content1 .content .benefits .rectangle .subheadline-benefit {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    /* or 175% */
-    text-align: center;
-    color: #627492;
-    margin-bottom: 40px;
-}
-
-body .content1 .content .img-brand {
-    margin-top: 50px;
-}
-
-body .content1 .content .img-brand img {
-    margin-right: 60px;
-}
-
-body .content1 .content .review {
-    color: #8caf41;
-    line-height: 150%;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: justify;
-    z-index: 1;
-    padding-top: 30px;
-}
-
-@media only screen and (max-width: 768px) {
-    body .content1 .content .img-brand img {
-        margin-right: 30px;
-        margin-left: 30px;
-    }
-}
-
-
-/* End Content 3 */
-
+/* End Content 4 */
 
 /* Footer */
-
-body .responsive{
+body .responsive {
     width: 100%;
     max-width: 100%;
     height: auto;
